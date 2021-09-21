@@ -1,0 +1,26 @@
+{
+  "name": "linky-telenifo-prometheus-exporter",
+  "version": "1.0.0",
+  "description": "Listens to a serial signal over UART, parses the ENEDIS Teleinfo datas and exports them as Prometheus metrics. Best suited for Raspberry Pis.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ilshidur/linky-telenifo-prometheus-exporter.git"
+  },
+  "keywords": [
+    "teleinfo",
+    "linky",
+    "prometheus",
+    "exporter",
+    "enedis"
+  ],
+  "author": "Ilshidur <ilshidur@gmail.com> (https://www.nicolas-coutin.fr)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ilshidur/linky-telenifo-prometheus-exporter/issues"
+  },
+  "homepage": "https://github.com/Ilshidur/linky-telenifo-prometheus-exporter#readme"
+}
