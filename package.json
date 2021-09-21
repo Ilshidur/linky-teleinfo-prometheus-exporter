@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/Ilshidur/linky-telenifo-prometheus-exporter/issues"
   },
-  "homepage": "https://github.com/Ilshidur/linky-telenifo-prometheus-exporter#readme"
+  "homepage": "https://github.com/Ilshidur/linky-telenifo-prometheus-exporter#readme",
+  "files": [
+    "index.js",
+    "metric.js"
+  ]
 }
