@@ -1,5 +1,5 @@
 {
-  "name": "linky-telenifo-prometheus-exporter",
+  "name": "linky-teleinfo-prometheus-exporter",
   "version": "1.0.0",
   "description": "Listens to a serial signal over UART, parses the ENEDIS Teleinfo datas and exports them as Prometheus metrics. Best suited for Raspberry Pis.",
   "main": "index.js",
