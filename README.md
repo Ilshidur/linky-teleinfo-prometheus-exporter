@@ -44,14 +44,6 @@ node index.js
 
 ## ⚡ Exposed metrics
 
-```bash
-teleinfo_iinst_amperes 002
-teleinfo_imax_amperes 090
-teleinfo_papp_voltsamperes 00520
-teleinfo_isousc_amperes 30
-teleinfo_base_wattshour 005347808
-```
-
 | Metric name                  | ENEDIS metric label        | Unit |
 |------------------------------|----------------------------|------|
 | `teleinfo_iinst_amperes`     | Intensité souscrite        | A    |
@@ -59,6 +51,16 @@ teleinfo_base_wattshour 005347808
 | `teleinfo_papp_voltsamperes` | Intensité Instantanée      | A    |
 | `teleinfo_isousc_amperes`    | Intensité maximale appelée | A    |
 | `teleinfo_base_wattshour`    | Puissance apparente        | VA   |
+
+*A `GET` HTTP request on the `/metrics` route gives something like this :*
+
+```bash
+teleinfo_iinst_amperes 002
+teleinfo_imax_amperes 090
+teleinfo_papp_voltsamperes 00520
+teleinfo_isousc_amperes 30
+teleinfo_base_wattshour 005347808
+```
 
 <hr/>
 
