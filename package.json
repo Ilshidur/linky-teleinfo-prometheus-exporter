@@ -3,6 +3,9 @@
   "version": "1.0.1",
   "description": "Listens to a serial signal over UART, parses the ENEDIS Teleinfo datas and exports them as Prometheus metrics. Best suited for Raspberry Pis.",
   "main": "index.js",
+  "bin": {
+    "linky-teleinfo-prometheus-exporter": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
