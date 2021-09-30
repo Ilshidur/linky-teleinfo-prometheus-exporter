@@ -22,7 +22,7 @@ console.log(`Reading from ${inputFilePath}...`);
 
 const server = http.createServer((req, res) => {
   if (req.url !== '/metrics' || req.method !== 'GET') {
-    res.writeHead(200, { 'Content-Type': 'text/plain' });
+    res.writeHead(404, { 'Content-Type': 'text/plain' });
     res.end('Not found');
     return;
   }
