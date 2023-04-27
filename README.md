@@ -46,11 +46,11 @@ node index.js
 
 | Metric name                  | ENEDIS metric label        | Unit |
 |------------------------------|----------------------------|------|
-| `teleinfo_iinst_amperes`     | Intensité souscrite        | A    |
-| `teleinfo_imax_amperes`      | Index option Base          | Wh   |
-| `teleinfo_papp_voltsamperes` | Intensité Instantanée      | A    |
-| `teleinfo_isousc_amperes`    | Intensité maximale appelée | A    |
-| `teleinfo_base_wattshour`    | Puissance apparente        | VA   |
+| `teleinfo_iinst_amperes`     | Intensité Instantanée      | A    |
+| `teleinfo_imax_amperes`      | Intensité maximale appelée | A    |
+| `teleinfo_papp_voltsamperes` | Puissance apparente        | VA   |
+| `teleinfo_isousc_amperes`    | Intensité souscrite        | A    |
+| `teleinfo_base_wattshour`    | Index option Base          | Wh   |
 
 *A `GET` HTTP request on the `/metrics` route gives something like this :*
 
